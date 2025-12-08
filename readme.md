@@ -6,16 +6,14 @@
 
 **Структура проекта**
 
-spider-classifier/                # корень проекта
-├── README.md                     # этот файл
-├── requirements.txt              # зависимости
-├── main.py                       # inference по одному изображению
-├── eval_on_dataset.py            # пробег по датасету и подсчёт метрик
-├── main.ipynb                    # ноутбук (Colab) с пошаговой демонстрацией
-└── farm_insects/                 # датасет (15 подпапок — по видам)
-├── Armyworms/
-├── Fall Armyworms/
-└── …
+    spider-classifier/                  # корень проекта
+      ├── README.md                     # этот файл
+      ├── requirements.txt              # зависимости
+      ├── main.ipynb                    # ноутбук с пошаговой демонстрацией  
+      └── farm_insects/                 # датасет (15 подпапок — по видам)  
+        ├── Armyworms/
+        ├── Fall Armyworms/
+        └── …
 
 
 **Проблема (контекст курса «Мониторинг экосистемы через IT-решения»)**
