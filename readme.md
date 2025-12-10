@@ -40,8 +40,37 @@
 https://huggingface.co/dima806/farm_insects_image_detection
 
 **Инструкция по установке**
-
-
+1. Клонируйте репозиторий
+```
+git clone https://github.com/dyakovDs/dyakov_practice.git
+cd dyakov_practice
+```
+3. Создайте виртуальное окружение
+macOS / Linux:
+```
+python3 -m venv .venv
+source .venv/bin/activate
+```
+Windows (PowerShell):
+```
+python -m venv .venv
+.\.venv\Scripts\activate
+```
+5. Установите зависимости
+```
+pip install -r requirements.txt
+```
+7. Подготовьте датасет
+В корне проекта должна быть папка:
+```
+farm_insects/
+    ├── Aphids/
+    ├── Armyworms/
+    ├── Fruit Flies/
+    └── ...
+```
+Если её нет — скачайте датасет или поместите свои изображения.
+9. Используя файл main.ipynb запускайте поочередно ячейки для воспроизведения результата.
 
 
 
